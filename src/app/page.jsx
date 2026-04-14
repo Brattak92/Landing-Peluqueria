@@ -14,8 +14,8 @@ const Home = () => {
 			<OurServices />
 			<Gallery />
 			<Pricing />
-			<Banner />
 			<Contact />
+			<Banner />
 		</main>
 	);
 };

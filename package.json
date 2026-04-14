@@ -9,11 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/runtime": "^7.29.2",
     "@next/font": "^13.4.6",
     "@react-google-maps/api": "^2.18.1",
-    "next": "13.4.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^16.2.3",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "react-icons": "^4.9.0",
     "react-whatsapp": "^0.3.0"
   },
