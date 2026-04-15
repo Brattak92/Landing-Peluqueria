@@ -5,17 +5,20 @@ import Gallery from '@/components/Gallery/Gallery';
 import Hero from '@/components/Hero/Hero';
 import OurServices from '@/components/OurServices/OurServices';
 import Pricing from '@/components/Pricing/Pricing';
+import WhatsAppButton from '@/components/Common/WhatsAppButton/WhatsAppButton';
 
 const Home = () => {
 	return (
 		<main>
+			
 			<Hero />
 			<About />
 			<OurServices />
 			<Gallery />
 			<Pricing />
-			<Contact />
 			<Banner />
+			<Contact />
+			<WhatsAppButton />
 		</main>
 	);
 };

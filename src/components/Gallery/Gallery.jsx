@@ -11,11 +11,10 @@ const Gallery = () => {
 				<div className='gallery-content'>
 					{GALLERY.map((image, index) => {
 						return (
-							<div className='image-container'>
+							<div className='image-container' key={index}>
 								<Image
 									className='gallery-image'
 									src={image}
-									key={index}
 									alt='gallery-img'
 								/>
 							</div>
