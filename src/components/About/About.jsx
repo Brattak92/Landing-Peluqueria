@@ -11,9 +11,11 @@ const About = () => {
 				<MyTitle newClass='about-title'>Bienvenidos a mi salon de belleza</MyTitle>
 				<div className='about-content'>
 					<p>
-						Somos profesionales del sector de la belleza, tratamientos por clientes
+						Expertos en peluquería, tintes y maquillaje profesional bajo una estética única. 
+						En nuestro salón, elevamos tu estilo con la precisión que buscas a través de técnicas de coloración avanzadas y un cuidado minucioso en el diseño de uñas. 
+						Creemos en la belleza auténtica, ofreciendo servicios de estética personalizados que resaltan tu esencia y garantizan un acabado impecable en cada detalle.
 					</p>
-					<MyButton goTo='#contact'>Reserva tu turno</MyButton>
+					<MyButton goTo='#contact'>Quiero mi cita</MyButton>
 				</div>
 				<Image src={aboutImg} alt='about' className='about-image' />
 			</div>

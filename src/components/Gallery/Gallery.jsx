@@ -7,7 +7,7 @@ const Gallery = () => {
 	return (
 		<section className='gallery-section' id='gallery'>
 			<div className='gallery-container'>
-				<MyTitle>Our Works</MyTitle>
+				<MyTitle>Nuestros trabajos</MyTitle>
 				<div className='gallery-content'>
 					{GALLERY.map((image, index) => {
 						return (

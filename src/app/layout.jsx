@@ -4,9 +4,9 @@ import Navbar from '@/components/Navbar/Navbar';
 import Footer from '@/components/Footer/Footer';
 
 export const metadata = {
-	title: 'Prueba 1',
+	title: 'Peluqueria Casa Nova',
 	description:
-		'Esta es una landing page para un Salón de Peluquería, donde ofrecen una amplia gama de servicios de belleza capilar.',
+		'Esta es una landing page para la Peluquería Casa Nova, donde ofrecen una amplia gama de servicios de belleza capilar.',
 	keywords: ['Next.js', 'React', 'JavaScript'],
 	authors: [{ name: 'Abel Acuña', url: 'https://ronin-webdesign.vercel.app/' }],
 };

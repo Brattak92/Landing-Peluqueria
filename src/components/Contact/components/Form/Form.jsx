@@ -75,16 +75,16 @@ const Form = () => {
 				<option defaultValue={true} disabled={true}>
 					Haircut
 				</option>
-				<option value={'styling'}>Styling</option>
-				<option value={'stylingColor'}>Styling + Color</option>
-				<option value={'stylingTint'}>Styling + Tint</option>
-				<option value={'semiPermanent'}>Semi-Permanent Wave</option>
-				<option value={'cut'}>Cut</option>
-				<option value={'shave'}>Shave</option>
-				<option value={'beardTrim'}>Beard Trim</option>
-				<option value={'cutBearTrim'}>Cut + Beard Trim</option>
-				<option value={'cutShave'}>Cut + Shave</option>
-				<option value={'cleanUp'}>Clean Up</option>
+				<option value={'styling'}>Peinado</option>
+				<option value={'stylingColor'}>Peinado + Color</option>
+				<option value={'stylingTint'}>Peinado + Tinte</option>
+				<option value={'semiPermanent'}>Ondas Semi-Permanentes</option>
+				<option value={'cut'}>Corte</option>
+				<option value={'shave'}>Afeitado</option>
+				<option value={'beardTrim'}>Recorte de Barba</option>
+				<option value={'cutBearTrim'}>Corte + Recorte de Barba</option>
+				<option value={'cutShave'}>Corte + Afeitado</option>
+				<option value={'cleanUp'}>Limpieza</option>
 			</select>
 			<input
 				type='date'
@@ -105,10 +105,10 @@ const Form = () => {
 				<option value='' disabled={true}>
 					Franja horaria
 				</option>
-				<option value='manana'>Manana</option>
+				<option value='manana'>Mañana</option>
 				<option value='tarde'>Tarde</option>
 			</select>
-			<MyButton newClass='contact-btn'>Reserva tu turno</MyButton>
+			<MyButton newClass='contact-btn'>Solicita tu cita VIP</MyButton>
 		</form>
 	);
 };

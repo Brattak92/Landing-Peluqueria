@@ -1,18 +1,18 @@
 export const PRICES_WOMEN = [
-	{ style: 'Styling', price: '$25' },
-	{ style: 'Styling + Color', price: '$65' },
-	{ style: 'Styling + Tint', price: '$65' },
-	{ style: 'Semi-Permanent Wave', price: '$65' },
-	{ style: 'Cut + Styling', price: '$63' },
-	{ style: 'Cut + Styling + Color', price: '$100' },
-	{ style: 'Cut + Styling + Tint', price: '$100' },
+	{ style: 'Peinado', price: '€25' },
+	{ style: 'Peinado + Color', price: '€65' },
+	{ style: 'Peinado + Tinte', price: '€65' },
+	{ style: 'Ondulado Semi-Permanente', price: '€65' },
+	{ style: 'Corte + Peinado', price: '€63' },
+	{ style: 'Corte + Peinado + Color', price: '€100' },
+	{ style: 'Corte + Peinado + Tinte', price: '€100' },
 ];
 
 export const PRICES_MEN = [
-	{ style: 'Cut', price: '$25' },
-	{ style: 'Shave', price: '$30' },
-	{ style: 'Beard Trim', price: '$15' },
-	{ style: 'Cut + Beard Trim', price: '$24' },
-	{ style: 'Cut + Shave', price: '$35' },
-	{ style: 'Clean Up', price: '$15' },
+	{ style: 'Corte', price: '€25' },
+	{ style: 'Afeitado', price: '€30' },
+	{ style: 'Recorte de Barba', price: '€15' },
+	{ style: 'Corte + Recorte de Barba', price: '€24' },
+	{ style: 'Corte + Afeitado', price: '€35' },
+	{ style: 'Limpieza', price: '€15' },
 ];

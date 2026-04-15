@@ -10,9 +10,7 @@ const Contact = () => {
 			<div className='contact-content'>
 				<MyTitle>Coge una cita ya!</MyTitle>
 				<p>
-					Contacta con nosotros. <br />
-					Inserta tus datos y tus preferencias y contacteremos contigo para confirmar
-					la cita y comunicarte el horario disponible.
+					¿Tienes una idea en mente? Cuéntanos qué necesitas y nuestro equipo se pondrá en contacto contigo para diseñar tu próxima cita. Estamos a solo un mensaje de crear tu nuevo look.
 				</p>
 				<Form />
 			</div>

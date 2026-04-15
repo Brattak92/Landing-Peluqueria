@@ -24,7 +24,7 @@ const Navbar = () => {
 					<div className='sub-navbar-logo'>
 						<Image src={logo} alt='logo' />
 						<a href='/'>
-							<h3>Peluquería</h3>
+							<h3>Peluquería Casa Nova</h3>
 						</a>
 					</div>
 					<ContactInfo />

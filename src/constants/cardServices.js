@@ -5,19 +5,19 @@ import img4 from '../../public/images/card4.webp';
 
 export const SERVICES = [
 	{
-		title: 'Hair Styling',
+		title: 'Peinados',
 		image: img1,
 	},
 	{
-		title: 'Make Up',
+		title: 'Maquillage',
 		image: img2,
 	},
 	{
-		title: 'Cosmetology',
+		title: 'Tintas',
 		image: img3,
 	},
 	{
-		title: 'Nail Polish',
+		title: 'Uñas',
 		image: img4,
 	},
 ];

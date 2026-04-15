@@ -16,11 +16,12 @@ const Pricing = () => {
 			<div className='content'>
 				<MyTitle>Servicios y precios:</MyTitle>
 				<p>
-					test de prueba
+					¿Tienes una idea en mente? Cuéntanos qué necesitas y nuestro equipo se pondrá en contacto contigo para diseñar tu próxima cita. Estamos a solo un mensaje de crear tu nuevo look.
+
 				</p>
 				<Prices />
 				<MyButton newClass='price-btn' goTo='#contact'>
-					Reserva tu turno
+					Define tu estilo
 				</MyButton>
 			</div>
 		</section>

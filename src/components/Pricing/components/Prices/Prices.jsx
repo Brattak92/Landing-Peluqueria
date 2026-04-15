@@ -5,7 +5,7 @@ const Prices = () => {
 	return (
 		<div className='prices-container'>
 			<div className='prices-list'>
-				<p className='prices-title'>WOMEN</p>
+				<p className='prices-title'>Señoritas</p>
 				{PRICES_WOMEN.map((item, index) => (
 					<div className='prices-content' key={index}>
 						<p className='prices-style'>{item.style}</p>
@@ -14,7 +14,7 @@ const Prices = () => {
 				))}
 			</div>
 			<div className='prices-list'>
-				<p className='prices-title'>MEN</p>
+				<p className='prices-title'>Hombres</p>
 				{PRICES_MEN.map((item, index) => (
 					<div className='prices-content' key={index}>
 						<p className='prices-style'>{item.style}</p>

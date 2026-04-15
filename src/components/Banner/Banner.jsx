@@ -7,9 +7,9 @@ const Banner = () => {
 		<section className='banner-section'>
 			<Image src={imgBanner} alt='banner' />
 			<div className='banner-content'>
-				<p className='banner-title'>More than just Beauty Hair</p>
+				<p className='banner-title'>Más que solo un corte de pelo</p>
 				<p className='banner-subtitle'>
-					Change your look with our talented stylists
+					Cambia tu look con nuestros estilistas
 				</p>
 			</div>
 		</section>
