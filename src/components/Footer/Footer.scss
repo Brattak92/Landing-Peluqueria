@@ -41,6 +41,12 @@
 		.footer-copyrights {
 			color: var(--primary-color);
 		}
+
+		.footer-horarios {
+			font-weight: 700;
+			text-align: center;
+			line-height: 1.5;
+		}
 	}
 
 	@media (max-width: 680px) {
@@ -57,10 +63,6 @@
 
 		.footer-contact {
 			grid-template-columns: 1fr;
-
-			.footer-horarios {
-				text-align: center;
-			}
 
 			.footer-copyrights {
 				grid-row: 3;

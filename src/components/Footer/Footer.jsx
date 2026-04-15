@@ -18,10 +18,10 @@ const Footer = () => {
 			<div className='footer-contact'>
 				<SocialMedia />
 				<p className='footer-copyrights'>
-					&copy; Copyright 2023 By Abel Alejandro Acuña
+					&copy; Peluquería Casa Nova. Todos los derechos reservados.
 				</p>
 				<p className='footer-horarios'>
-					Lunes a Sabado: 10:00 - 14:00 / 16:00 - 20:00
+					De Lunes a Sabado <br /> 10:00 - 14:00 <br /> 16:00 - 20:00
 				</p>
 			</div>
 		</footer>

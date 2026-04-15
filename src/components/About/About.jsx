@@ -15,7 +15,6 @@ const About = () => {
 						En nuestro salón, elevamos tu estilo con la precisión que buscas a través de técnicas de coloración avanzadas y un cuidado minucioso en el diseño de uñas. 
 						Creemos en la belleza auténtica, ofreciendo servicios de estética personalizados que resaltan tu esencia y garantizan un acabado impecable en cada detalle.
 					</p>
-					<MyButton goTo='#contact'>Quiero mi cita</MyButton>
 				</div>
 				<Image src={aboutImg} alt='about' className='about-image' />
 			</div>

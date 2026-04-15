@@ -12,9 +12,6 @@ const Hero = () => {
 				<h3>Cambia tu look con nuestros talentosos estilistas</h3>
 				<MyButton goTo='#contact'>Cambia ya</MyButton>
 			</div>
-			<p className='hero-horarios'>
-				Lunes a Sabado: 10:00 - 14:00 / 16:00 - 20:00
-			</p>
 		</div>
 	);
 };

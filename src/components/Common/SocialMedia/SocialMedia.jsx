@@ -6,7 +6,6 @@ import {
 	FaTwitter,
 	FaWhatsapp,
 } from 'react-icons/fa';
-import ReactWhatsapp from 'react-whatsapp';
 import './SocialMedia.scss';
 
 const SocialMedia = () => {
@@ -21,12 +20,6 @@ const SocialMedia = () => {
 			<a href='https://www.twitter.com' target='_blank' rel='noreferrer'>
 				<FaTwitter />
 			</a>
-			<ReactWhatsapp
-				number={process.env.NEXT_PUBLIC_WHATSAPP_KEY}
-				message='Hello World!!!'
-				element={'a'}>
-				<FaWhatsapp />
-			</ReactWhatsapp>
 		</div>
 	);
 };

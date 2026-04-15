@@ -16,7 +16,7 @@ const Pricing = () => {
 			<div className='content'>
 				<MyTitle>Servicios y precios:</MyTitle>
 				<p>
-					¿Tienes una idea en mente? Cuéntanos qué necesitas y nuestro equipo se pondrá en contacto contigo para diseñar tu próxima cita. Estamos a solo un mensaje de crear tu nuevo look.
+					Desde tintes vibrantes hasta el cuidado minucioso de tus uñas, nuestras tarifas reflejan la exclusividad de los productos y la precisión de nuestra mano de obra. Encuentra el servicio que tu cabello y manos merecen.
 
 				</p>
 				<Prices />

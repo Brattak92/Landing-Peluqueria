@@ -12,6 +12,7 @@ import { useState } from 'react';
 
 const Navbar = () => {
 	const [openMenu, setOpenMenu] = useState(false);
+	const businessHours = 'De Lunes a Sabado:\n10:00 - 14:00\n16:00 - 20:00';
 
 	const handleMenu = () => {
 		setOpenMenu(!openMenu);
@@ -27,6 +28,7 @@ const Navbar = () => {
 							<h3>Peluquería Casa Nova</h3>
 						</a>
 					</div>
+					<p className='sub-navbar-hours'>{businessHours}</p>
 					<ContactInfo />
 				</div>
 			</div>
