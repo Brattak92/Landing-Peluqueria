@@ -1,17 +1,20 @@
+'use client';
+
 import MyTitle from '../Common/MyTitle/MyTitle';
 import Form from './components/Form/Form';
 import ContactMap from './components/Map/Map';
+import { useLanguage } from '@/context/LanguageContext';
 import './Contact.scss';
 
 const Contact = () => {
+	const { t } = useLanguage();
+
 	return (
 		<section className='contact-section' id='contact'>
 			<ContactMap />
 			<div className='contact-content'>
-				<MyTitle>Coge una cita ya!</MyTitle>
-				<p>
-					¿Tienes una idea en mente? Cuéntanos qué necesitas y nuestro equipo se pondrá en contacto contigo para diseñar tu próxima cita. Estamos a solo un mensaje de crear tu nuevo look.
-				</p>
+				<MyTitle>{t.contact.title}</MyTitle>
+				<p>{t.contact.description}</p>
 				<Form />
 			</div>
 		</section>

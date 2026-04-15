@@ -1,16 +1,21 @@
+'use client';
+
 import MyButton from '../Common/MyButton/MyButton';
+import { useLanguage } from '@/context/LanguageContext';
 import './Hero.scss';
 
 const Hero = () => {
+	const { t } = useLanguage();
+
 	return (
 		<div className='hero'>
 			<div className='hero-content'>
 				<h1>
-					Mas que solo cortes de pelos <br />
-					Belleza y estilo
+					{t.hero.titleLine1} <br />
+					{t.hero.titleLine2}
 				</h1>
-				<h3>Cambia tu look con nuestros talentosos estilistas</h3>
-				<MyButton goTo='#contact'>Cambia ya</MyButton>
+				<h3>{t.hero.subtitle}</h3>
+				<MyButton goTo='#contact'>{t.hero.cta}</MyButton>
 			</div>
 		</div>
 	);

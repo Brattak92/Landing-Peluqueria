@@ -1,8 +1,8 @@
 export const navLinks = [
-	{ title: 'Inicio', path: '#home' },
-	{ title: 'Sobre nosotros', path: '#about' },
-	{ title: 'Servicios', path: '#services' },
-	{ title: 'Galería', path: '#gallery' },
-	{ title: 'Precios', path: '#prices' },
-	{ title: 'Contacto', path: '#contact' },
+	{ key: 'home', path: '#home' },
+	{ key: 'about', path: '#about' },
+	{ key: 'services', path: '#services' },
+	{ key: 'gallery', path: '#gallery' },
+	{ key: 'prices', path: '#prices' },
+	{ key: 'contact', path: '#contact' },
 ];

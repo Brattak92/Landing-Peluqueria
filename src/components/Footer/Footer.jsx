@@ -1,10 +1,15 @@
+'use client';
+
 import Image from 'next/image';
 import logo from '../../../public/images/logo.webp';
 import ContactInfo from '../Common/ContactInfo/ContactInfo';
 import SocialMedia from '../Common/SocialMedia/SocialMedia';
+import { useLanguage } from '@/context/LanguageContext';
 import './Footer.scss';
 
 const Footer = () => {
+	const { t } = useLanguage();
+
 	return (
 		<footer className='footer-container'>
 			<div className='footer-logo'>
@@ -18,11 +23,9 @@ const Footer = () => {
 			<div className='footer-contact'>
 				<SocialMedia />
 				<p className='footer-copyrights'>
-					&copy; Peluquería Casa Nova. Todos los derechos reservados.
+					&copy; {t.footer.copyright}
 				</p>
-				<p className='footer-horarios'>
-					De Lunes a Sabado <br /> 10:00 - 14:00 <br /> 16:00 - 20:00
-				</p>
+				<p className='footer-horarios'>{t.footer.hours}</p>
 			</div>
 		</footer>
 	);

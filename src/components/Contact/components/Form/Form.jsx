@@ -1,9 +1,12 @@
 'use client';
 
 import MyButton from '@/components/Common/MyButton/MyButton';
+import { useLanguage } from '@/context/LanguageContext';
 import { useForm } from '@/hooks/useForm';
 
 const Form = () => {
+	const { t } = useLanguage();
+
 	// Hook useForm
 	const {
 		name,
@@ -37,7 +40,7 @@ const Form = () => {
 		<form onSubmit={handleSubmit}>
 			<input
 				type='text'
-				placeholder='Nombre'
+				placeholder={t.form.name}
 				name='name'
 				id='name'
 				value={name}
@@ -57,7 +60,7 @@ const Form = () => {
 			/>
 			<input
 				type='tel'
-				placeholder='Teléfono'
+				placeholder={t.form.phone}
 				name='tel'
 				id='tel'
 				value={tel}
@@ -73,18 +76,13 @@ const Form = () => {
 				required
 				autoComplete='off'>
 				<option defaultValue={true} disabled={true}>
-					Haircut
+					{t.form.servicePlaceholder}
 				</option>
-				<option value={'styling'}>Peinado</option>
-				<option value={'stylingColor'}>Peinado + Color</option>
-				<option value={'stylingTint'}>Peinado + Tinte</option>
-				<option value={'semiPermanent'}>Ondas Semi-Permanentes</option>
-				<option value={'cut'}>Corte</option>
-				<option value={'shave'}>Afeitado</option>
-				<option value={'beardTrim'}>Recorte de Barba</option>
-				<option value={'cutBearTrim'}>Corte + Recorte de Barba</option>
-				<option value={'cutShave'}>Corte + Afeitado</option>
-				<option value={'cleanUp'}>Limpieza</option>
+				{t.form.serviceOptions.map((serviceOption) => (
+					<option key={serviceOption.value} value={serviceOption.value}>
+						{serviceOption.label}
+					</option>
+				))}
 			</select>
 			<input
 				type='date'
@@ -103,12 +101,12 @@ const Form = () => {
 				required
 				autoComplete='off'>
 				<option value='' disabled={true}>
-					Franja horaria
+					{t.form.timePlaceholder}
 				</option>
-				<option value='manana'>Mañana</option>
-				<option value='tarde'>Tarde</option>
+				<option value='manana'>{t.form.morning}</option>
+				<option value='tarde'>{t.form.afternoon}</option>
 			</select>
-			<MyButton newClass='contact-btn'>Solicita tu cita VIP</MyButton>
+			<MyButton newClass='contact-btn'>{t.form.submit}</MyButton>
 		</form>
 	);
 };

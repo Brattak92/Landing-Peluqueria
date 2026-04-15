@@ -2,6 +2,7 @@ import { GREAT_VIBES, MARTEL, POPPINS } from '@/constants/fonts';
 import './globals.scss';
 import Navbar from '@/components/Navbar/Navbar';
 import Footer from '@/components/Footer/Footer';
+import { LanguageProvider } from '@/context/LanguageContext';
 
 export const metadata = {
 	title: 'Peluqueria Casa Nova',
@@ -17,9 +18,11 @@ const RootLayout = ({ children }) => {
 			lang='es'
 			className={`${GREAT_VIBES.variable} ${MARTEL.variable} ${POPPINS.variable}`}>
 			<body suppressHydrationWarning={true}>
-				<Navbar />
-				{children}
-				<Footer />
+				<LanguageProvider>
+					<Navbar />
+					{children}
+					<Footer />
+				</LanguageProvider>
 			</body>
 		</html>
 	);
