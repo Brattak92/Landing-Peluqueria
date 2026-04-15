@@ -1,7 +1,7 @@
 import './WhatsAppButton.scss';
 
-const PHONE_NUMBER = '34612345678'; // Cambiar por tu número
-const DEFAULT_MESSAGE = 'Hola, me gustaría consultar...';
+const PHONE_NUMBER = '393343418315'; // Cambiar por tu número
+const DEFAULT_MESSAGE = 'Hola, me gustaría consultar la disponibilidad para una cita en tu salón de belleza.';
 
 const WhatsAppButton = () => {
 	const whatsappURL = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(DEFAULT_MESSAGE)}`;

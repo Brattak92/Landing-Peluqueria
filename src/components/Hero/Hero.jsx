@@ -6,14 +6,14 @@ const Hero = () => {
 		<div className='hero'>
 			<div className='hero-content'>
 				<h1>
-					More than just <br />
-					Beauty Hair
+					Mas que solo cortes de pelos <br />
+					Belleza y estilo
 				</h1>
-				<h3>Change your look with our talented stylists</h3>
+				<h3>Cambia tu look con nuestros talentosos estilistas</h3>
 				<MyButton goTo='#contact'>Reservar turno</MyButton>
 			</div>
 			<p className='hero-horarios'>
-				Lunes a Viernes - 9:00 a 13:00 - 17:00 a 21:00
+				Lunes a Sabado: 10:00 - 14:00 / 16:00 - 20:00
 			</p>
 		</div>
 	);

@@ -10,7 +10,7 @@ const Footer = () => {
 			<div className='footer-logo'>
 				<Image src={logo} alt='logo' />
 				<a href='/'>
-					<h3>Peluquería</h3>
+					<h3>Peluquería Casa Nova</h3>
 				</a>
 			</div>
 			<ContactInfo />
@@ -21,7 +21,7 @@ const Footer = () => {
 					&copy; Copyright 2023 By Abel Alejandro Acuña
 				</p>
 				<p className='footer-horarios'>
-					Lunes a Viernes - 9:00 a 13:00 - 17:00 a 21:00
+					Lunes a Sabado: 10:00 - 14:00 / 16:00 - 20:00
 				</p>
 			</div>
 		</footer>

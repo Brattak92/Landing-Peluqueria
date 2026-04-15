@@ -14,11 +14,9 @@ const Pricing = () => {
 				<Image src={imgBackground} alt='img' className='img-background' />
 			</div>
 			<div className='content'>
-				<MyTitle>Services & Prices</MyTitle>
+				<MyTitle>Servicios y precios:</MyTitle>
 				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
-					reprehenderit dolor aliquid quas asperiores eaque officia temporibus sunt
-					voluptate distinctio iste fugit nisi inventore
+					test de prueba
 				</p>
 				<Prices />
 				<MyButton newClass='price-btn' goTo='#contact'>

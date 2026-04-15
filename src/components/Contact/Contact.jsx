@@ -8,11 +8,11 @@ const Contact = () => {
 		<section className='contact-section' id='contact'>
 			<ContactMap />
 			<div className='contact-content'>
-				<MyTitle>Services & Prices</MyTitle>
+				<MyTitle>Coge una cita ya!</MyTitle>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis
-					adipisci quae repellendus. Ipsum corporis est tenetur illo illum dicta,
-					quas id similique atque doloremque ad fuga nesciunt, consequatur ipsa.
+					Contacta con nosotros. <br />
+					Inserta tus datos y tus preferencias y contacteremos contigo para confirmar
+					la cita y comunicarte el horario disponible.
 				</p>
 				<Form />
 			</div>

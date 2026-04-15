@@ -6,17 +6,17 @@ const ContactInfo = () => {
 		<div className='info-contact'>
 			<div>
 				<MdLocationOn />
-				<p>Sarmiento 512</p>
+				<p>Benidorm</p>
 			</div>
 			<div>
 				<MdPhone />
-				<p>+54 9 3858 156235</p>
+				<p>+34 604218793</p>
 			</div>
 			<div>
 				<MdEmail />
-				<p>ejemplo@gmail.com</p>
+				<p>simodelmoes@gmail.com</p>
 			</div>
 		</div>
 	);
 };
-export default ContactInfo;
+export default ContactInfo; 

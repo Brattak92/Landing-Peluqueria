@@ -11,6 +11,7 @@ const Form = () => {
 		tel,
 		option,
 		date,
+		timeRange,
 		formState,
 		onInputChange,
 		onResetForm,
@@ -20,6 +21,7 @@ const Form = () => {
 		tel: '',
 		option: '',
 		date: '',
+		timeRange: '',
 	});
 
 	// Handle submit
@@ -93,6 +95,19 @@ const Form = () => {
 				required
 				autoComplete='off'
 			/>
+			<select
+				name='timeRange'
+				id='timeRange'
+				value={timeRange}
+				onChange={onInputChange}
+				required
+				autoComplete='off'>
+				<option value='' disabled={true}>
+					Franja horaria
+				</option>
+				<option value='manana'>Manana</option>
+				<option value='tarde'>Tarde</option>
+			</select>
 			<MyButton newClass='contact-btn'>Reserva tu turno</MyButton>
 		</form>
 	);

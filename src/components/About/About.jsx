@@ -8,14 +8,10 @@ const About = () => {
 	return (
 		<section className='about-section' id='about'>
 			<div className='about-container'>
-				<MyTitle newClass='about-title'>Welcome to My Hair Salon</MyTitle>
+				<MyTitle newClass='about-title'>Bienvenidos a mi salon de belleza</MyTitle>
 				<div className='about-content'>
 					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quas dicta
-						consectetur, necessitatibus laudantium labore autem cupiditate,
-						perferendis natus eligendi at ad, sed recusandae totam quidem a id vitae
-						officia? Commodi laborum quod officia, quaerat natus iure, et ipsa modi
-						nisi voluptatum, eveniet maxime repudiandae quidem vitae in.
+						Somos profesionales del sector de la belleza, tratamientos por clientes
 					</p>
 					<MyButton goTo='#contact'>Reserva tu turno</MyButton>
 				</div>
